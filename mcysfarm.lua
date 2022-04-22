@@ -1,5 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
+-- you cant see code ;oo
 
 -- Instances:
 
