@@ -1,7 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
--- you cant see code ;oo
-
+-- you can't see code clown
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -281,3 +280,30 @@ TextLabel_6.Font = Enum.Font.FredokaOne
 TextLabel_6.Text = "Temporary gui mcys farm"
 TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.TextSize = 20.000
+
+-- Scripts:
+
+local function BLLCRVH_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.maps.Visible = not script.Parent.Parent.maps.Visible
+	end)
+end
+coroutine.wrap(BLLCRVH_fake_script)()
+local function CZNIKQP_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.misc.Visible = not script.Parent.Parent.misc.Visible
+	end)
+end
+coroutine.wrap(CZNIKQP_fake_script)()
+local function HGNFQM_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.autosell.Visible = not script.Parent.Parent.autosell.Visible
+	end)
+end
+coroutine.wrap(HGNFQM_fake_script)()
